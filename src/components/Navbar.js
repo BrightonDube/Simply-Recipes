@@ -3,12 +3,20 @@ import { Link } from "gatsby"
 
 const Navbar = () => {
   return (
-    <div>
-      <Link to="/">Home </Link>
-      <Link to="/recipes">Recipes</Link>
-      <Link to="/tags">Tags</Link>
-      <Link to="/about">About</Link>
-    </div>
+    <ul>
+      <li>
+        <Link to="/">Home </Link>
+      </li>
+      <li>
+        <Link to="/recipes">Recipes</Link>
+      </li>
+      <li>
+        <Link to="/tags">Tags</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+    </ul>
   )
 }
 

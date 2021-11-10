@@ -1,7 +1,11 @@
 import React from "react"
 
 const Footer = () => {
-  return <div>Created with love {new Date().getFullYear()} Brighton Dube</div>
+  return (
+    <footer className="page-footer">
+      &copy; {new Date().getFullYear()} Brighton Dube
+    </footer>
+  )
 }
 
 export default Footer
